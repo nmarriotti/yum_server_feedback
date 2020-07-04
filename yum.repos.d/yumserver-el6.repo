@@ -1,0 +1,26 @@
+[base-6]
+name=CentOS-6 - Base
+baseurl=http://yum/repos/el6/base/
+gpgcheck=0
+enabled=1
+
+#released updates
+[updates-6]
+name=CentOS-6 - Updates
+baseurl=http://yum/repos/el6/updates/
+gpgcheck=0
+enabled=1
+
+#additional packages that may be useful
+[extras-6]
+name=CentOS-6 - Extras
+baseurl=http://yum/repos/el6/extras/
+gpgcheck=0
+enabled=1
+
+#additional packages that extend functionality of existing packages
+[centosplus-6]
+name=CentOS-6 - Plus
+baseurl=http://yum/repos/el6/centosplus/
+gpgcheck=0
+enabled=1

@@ -1,0 +1,26 @@
+[base-7]
+name=CentOS-7 - Base
+baseurl=http://yum/repos/el7/base/
+gpgcheck=0
+enabled=1
+
+#released updates
+[updates-7]
+name=CentOS-7 - Updates
+baseurl=http://yum/repos/el7/updates/
+gpgcheck=0
+enabled=1
+
+#additional packages that may be useful
+[extras-7]
+name=CentOS-7 - Extras
+baseurl=http://yum/repos/el7/extras/
+gpgcheck=0
+enabled=1
+
+#additional packages that extend functionality of existing packages
+[centosplus-7]
+name=CentOS-7 - Plus
+baseurl=http://yum/repos/el7/centosplus/
+gpgcheck=0
+enabled=1
